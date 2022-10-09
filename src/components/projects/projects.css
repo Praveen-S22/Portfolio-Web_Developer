@@ -1,0 +1,148 @@
+.projectsContainer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    flex-direction: column;
+    background: linear-gradient(to right, #c9c9c9, #e0dddd);
+    border-radius: 0px 35px 35px 0px;
+    margin-bottom: 150px;
+}
+
+
+
+.card {
+    padding: .8rem;
+    border-radius: 1rem;
+    margin-top: 100px 0;
+}
+
+.cardHead {
+    background: linear-gradient(to right, #f0f0f0, #e0dddd);
+    display: flex;
+    flex-wrap: wrap;
+    padding: .8rem;
+    border-radius: 1rem;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardLinks {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+img {
+    display: block;
+    height: 225px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.imageContainer {
+    width: 300px;
+    height: 225px;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+
+.projectText {
+    margin-left: 25px;
+}
+
+
+
+.heading {
+    padding-left: 60px;
+}
+
+
+.btn-grad {
+    background: rgb(131, 15, 15);
+    margin: 10px;
+    padding: 4px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 1rem;
+    max-width: 100px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #e19f9f;
+}
+
+.center {
+    text-align: center;
+}
+
+.text {
+    width: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+    .projectsContainer {
+        grid-template-columns: 1fr 1fr;
+        margin-right: 25px;
+    }
+
+    .projectText>h2 {
+        font-size: 120%;
+    }
+
+    .projectText>h5 {
+        font-size: 70%;
+    }
+
+    .text {
+        width: 300px;
+    }
+
+    .cardHead {
+        justify-content: center;
+    }
+
+    .cardLinks {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .projectsContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .projectText>h2 {
+        font-size: 80%;
+    }
+
+    .projectText>h5 {
+        font-size: 50%;
+    }
+
+    .cardLinks {
+        justify-content: center;
+    }
+
+    .text {
+        width: 200px;
+    }
+
+    .cardHead {
+        justify-content: center;
+    }
+
+}

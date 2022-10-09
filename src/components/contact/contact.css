@@ -1,0 +1,35 @@
+#contact {
+    margin-top: 5rem;
+}
+
+#contact {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    /* box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; */
+    /* border-radius: 10px; */
+}
+
+.icons  {
+    border-top: 1px solid black;
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.emulated-flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: -25px 0 0 -25px;
+    width: calc(100% + 12px);
+  }
+
+.badges {
+    border: 1px solid black;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
+}
