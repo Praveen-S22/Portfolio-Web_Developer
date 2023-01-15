@@ -1,6 +1,5 @@
 import React from "react";
 import "./projects.css";
-import { BsGithub } from "react-icons/bs";
 import { RiComputerLine } from "react-icons/ri";
 import Project4 from "../../assets/project4.png";
 import Tic from "../../assets/Tic.png";
