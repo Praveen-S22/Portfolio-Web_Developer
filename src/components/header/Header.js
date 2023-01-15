@@ -15,8 +15,13 @@ const Header = () => {
       <header>
         <div className="backgroundImage">
           <div id="home" className="headerContainer">
-            <h5>Full-Stack Software Engineer</h5>
-            <h1 className="largeFont">PRAVEEN S</h1>
+            <h1 data-aos="flip-up">
+              <b>Full-Stack MERN Developer</b>
+            </h1>
+            <h3 className="largeFont" data-aos="zoom-in">
+              PRAVEEN S
+            </h3>
+            <br />
             <Contact />
           </div>
         </div>
@@ -26,58 +31,58 @@ const Header = () => {
         <div className="badgeCard">
           <article class="badge blue">
             <div class="rounded">
-              <FaReact size={35} />
+              <FaReact size={50} />
             </div>
           </article>
-          <h6>React</h6>
+          <h3>React</h3>
         </div>
         <div className="badgeCard">
           <article class="badge green">
             <div class="rounded">
-              <SiMongodb size={18} />
+              <SiMongodb size={50} />
             </div>
           </article>
-          <h6>MongoDB</h6>
+          <h3>MongoDB</h3>
         </div>
         <div className="badgeCard">
           <article class="badge gainsboro">
             <div class="rounded">
-              <AiFillHtml5 size={18} />
+              <AiFillHtml5 size={50} />
             </div>
           </article>
-          <h6>HTML5</h6>
+          <h3>HTML5</h3>
         </div>
         <div className="badgeCard">
           <article class="badge crimson">
             <div class="rounded">
-              <IoLogoCss3 size={18} />
+              <IoLogoCss3 size={50} />
             </div>
           </article>
-          <h6>CSS3</h6>
+          <h3>CSS3</h3>
         </div>
         <div className="badgeCard">
           <article class="badge orange">
             <div class="rounded">
-              <SiJavascript size={18} />
+              <SiJavascript size={50} />
             </div>
           </article>
-          <h6>JavaScript</h6>
+          <h3>JavaScript</h3>
         </div>
         <div className="badgeCard">
           <article class="badge green">
             <div class="rounded">
-              <FaNode size={24} />
+              <FaNode size={50} />
             </div>
           </article>
-          <h6>NodeJS</h6>
+          <h3>NodeJS</h3>
         </div>
         <div className="badgeCard">
           <article class="badge purple">
             <div class="rounded">
-              <SiHeroku size={18} />
+              <SiHeroku size={50} />
             </div>
           </article>
-          <h6>Heroku</h6>
+          <h3>Heroku</h3>
         </div>
       </div>
     </>

@@ -5,7 +5,6 @@ import { ImLinkedin } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { IoDocumentAttach } from "react-icons/io5";
-import Resume from "../../assets/FSD resume.docx";
 
 const Contact = () => {
   return (
@@ -17,8 +16,10 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <VscGithubInverted size={20} />
-            <h6>GitHub</h6>
+            <VscGithubInverted size={80} style={{ color: "black" }} />
+            <h3>
+              <strong>GitHub</strong>
+            </h3>
           </a>
         </div>
         <div className="iconNames">
@@ -27,9 +28,11 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <ImLinkedin size={20} />
+            <ImLinkedin size={80} style={{ color: "red" }} />
           </a>
-          <h6>LinkedIn</h6>
+          <h3>
+            <strong>LinkedIn</strong>
+          </h3>
         </div>
         <div className="iconNames">
           <a
@@ -37,15 +40,23 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <MdEmail size={20} />
+            <MdEmail size={80} style={{ color: "green" }} />
           </a>
-          <h6>Email</h6>
+          <h3>
+            <strong>Email</strong>
+          </h3>
         </div>
         <div className="iconNames">
-          <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <IoDocumentAttach size={20} />
+          <a
+            href="https://docs.google.com/document/d/1N-p4V_a2fVa2HOU70xfC6uCybRbTb6Uj/edit?usp=share_link&ouid=114633191572087791133&rtpof=true&sd=true"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoDocumentAttach size={80} style={{ color: "blue" }} />
           </a>
-          <h6>Resume</h6>
+          <h3>
+            <strong>Resume</strong>
+          </h3>
         </div>
         <div className="iconNames">
           <a
@@ -53,9 +64,14 @@ const Contact = () => {
             // target="_blank"
             rel="noopener noreferrer"
           >
-            <BsFillTelephoneForwardFill size={20} />
+            <BsFillTelephoneForwardFill
+              size={80}
+              style={{ color: "#8932a8" }}
+            />
           </a>
-          <h6>8056048867</h6>
+          <h3>
+            <strong>8056048867</strong>
+          </h3>
         </div>
       </div>
     </section>
